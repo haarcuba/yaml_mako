@@ -1,0 +1,6 @@
+---
+name: "subscription"
+details:
+    start time: ${start_date}
+    end time: ${end_date}
+    comment: dates should appear above after temlating
