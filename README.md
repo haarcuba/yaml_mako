@@ -43,6 +43,7 @@ pprint.pprint( yaml_mako.load( stream, start_date = today, end_date = oneYearLat
 ```
 
 And we get:
+
 ```python
 {'details': {'comment': 'dates should appear above after temlating',
              'end time': datetime.date(2017, 1, 24),
