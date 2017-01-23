@@ -7,6 +7,10 @@ These are the facts:
 
 Let's have them both!
 
+# Installation
+
+    $ pip install yaml-mako
+
 # Example
 
 Here's our yaml document, describint a general subscription, say to a newsletter:
