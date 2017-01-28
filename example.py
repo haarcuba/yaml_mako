@@ -4,5 +4,5 @@ import datetime
 
 stream = open( 'example.yaml' )
 today = datetime.date.today()
-oneYearLater = today + datetime.timedelta( 1 )
-pprint.pprint( yaml_mako.load( stream, start_date = today, end_date = oneYearLater ) )
+tomorrow = today + datetime.timedelta( 1 )
+pprint.pprint( yaml_mako.load( stream, start_date = today, end_date = tomorrow ) )
